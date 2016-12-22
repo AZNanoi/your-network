@@ -1,0 +1,8 @@
+//Get full pictures
+10204230074044791_10206568031052255?fields=full_picture,picture
+
+//get feilds
+https://graph.facebook.com/v2.5/10206906971365551_10206597939119938?fields=message,created_time,story,link,from,object_id&access_token=
+
+//get normal picture
+https://graph.facebook.com/$object_id/picture?type=normal&access_token=$access_token

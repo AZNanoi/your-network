@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Facebook Login JavaScript Example</title>
+<meta charset="UTF-8">
+<style type="text/css">
+.dropper {  }
+.dropper .dropper-dropzone { border: 3px dashed #ccc; cursor: pointer; margin: 10px 0; padding:20px; text-align: center; }
+.dropper .dropper-input { left: -99999px; opacity: 0; position: absolute; }
+.dropper.dropping .dropper-dropzone { background: #efefef; border-color: #999; }
+.dropper-dropzone{
+  width:78px;
+  padding:3px;
+  height:100px;
+  position: relative;
+}
+.dropper-dropzone>img{
+  width:78px;
+  height:100px;
+  margin-top=0;
+}
+.dropper-dropzone>span {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  color:#ccc;
+}
+.dropper .dropper-dropzone{
+padding:3px !important    
+}
+</style>
+<script src="jquery-1.11.3.js" defer="defer"></script>
+<script src="jquery.fs.dropper.js" defer="defer"></script>
+<script src="test.js" defer="defer"></script>
+<script>
+function storeLike(){
+  var arg2={"Tomatosauce":"4","Spicytomatosauce":"5"};
+  var arg=JSON.stringify(arg2);
+  var decode=JSON.parse(arg);
+  alert(decode);
+  alert(decode.Tomatosauce);
+    if (window.XMLHttpRequest) {
+      // code for IE7+, Firefox, Chrome, Opera, Safari
+      var xmlhttp=new XMLHttpRequest();
+    } else {  // code for IE6, IE5
+      var xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xmlhttp.onreadystatechange=function(){
+      if(xmlhttp.readyState==4){
+        if (xmlhttp.status==200){
+          alert(xmlhttp.responseText);
+          document.getElementById(postID+'_likes').innerHTML = xmlhttp.responseText;
+          document.getElementById(postID+'_button').style.backgroundPosition = "2px -31px";
+        }
+      }
+    };
+    xmlhttp.open("GET","test.php?postID=id123&array=" + arg,true);
+    xmlhttp.send();
+    return false;
+}
+</script>
+</head>
+<body>
+<button name="like" onclick="storeLike();">like</button>
+<div class="target" width="78" height="100"><img /></div>
+<img />
+</body>
+</html>
+
+
+    
+    $(this).siblings(".selected").css("width", "80px");
+    $(this)..attr("class", "selected");

@@ -1,0 +1,29 @@
+<div class="p-share">
+                <span class="subtitle_font">Share:</span>
+                <a style="background-color: rgb(200, 234, 251); display: inline-block; text-align: center; font-size: 32px; color: white; border: 1px solid white; font-family: Myriad Pro; font-weight: bold; border-radius: 5px; margin-left: 5px; background-repeat: no-repeat; background-position: center center; background-image: url(&quot;images/FB-white.png&quot;); background-size: 13px 25px; width: 38px; height: 38px;"></a><a style="background-color: rgb(202, 236, 252); height: 38px; width: 38px; display: inline-block; text-align: center; font-size: 32px; color: white; border: 1px solid white; font-family: Myriad Pro; font-weight: bold; border-radius: 5px; margin-left: 5px; background-image: url(&quot;images/Twitter_logo_white.png&quot;); background-repeat: no-repeat; background-size: 25px 25px; background-position: center center;"></a><a style="background-color: rgb(202, 236, 252); height: 38px; width: 38px; display: inline-block; text-align: center; font-size: 32px; color: white; border: 1px solid white; font-family: Myriad Pro; font-weight: bold; border-radius: 5px; margin-left: 5px; background-image: url(&quot;images/instagram-white.png&quot;); background-repeat: no-repeat; background-position: center center; background-size: 25px 25px;"></a><a style="background-color: rgb(202, 236, 252); height: 38px; width: 38px; display: inline-block; text-align: center; font-size: 32px; color: white; border: 1px solid white; font-family: Myriad Pro; font-weight: bold; border-radius: 5px; margin-left: 5px; background-image: url(&quot;images/flickr-logo.png&quot;); background-repeat: no-repeat; background-position: center center; background-size: 30px 15px;"></a>
+                
+                
+                
+              </div>
+width: 250px;
+float: right;
+padding-top: 10px;
+margin-right: 30px;
+
+
+background-color: #C8EAFB;
+display: inline-block;
+text-align: center;
+font-size: 32px;
+color: #FFF;
+border: 1px solid #FFF;
+font-family: Myriad Pro;
+font-weight: bold;
+border-radius: 5px;
+margin-left: 5px;
+background-repeat: no-repeat;
+background-position: center center;
+background-image: url("images/FB-white.png");
+background-size: 13px 25px;
+width: 38px;
+height: 38px;

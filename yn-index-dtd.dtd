@@ -1,0 +1,37 @@
+<!ELEMENT root (head, body)>
+<!ELEMENT head (icon, title)>
+<!ELEMENT icon (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT body (header, wrapper, footer)>
+
+<!ELEMENT header (logo, login)>
+<!ELEMENT logo (img, title)>
+<!ELEMENT img (#PCDATA)>
+<!ELEMENT login (email, password, fgLogin)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ELEMENT fgLogin (#PCDATA)>
+<!ATTLIST fgLogin
+		href CDATA #REQUIRED>
+
+<!ELEMENT wrapper (leftContent, rightContent)>
+
+<!ELEMENT leftContent (img, form, users)>
+<!ELEMENT form (submit?, search?, title?, action?, description?)>
+<!ELEMENT submit (#PCDATA)>
+<!ELEMENT search (#PCDATA)>
+<!ELEMENT users (description, person*)>
+<!ELEMENT description (#PCDATA)>
+<!ENTITY % ni "name, img">
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT person (%ni;)>
+<!ELEMENT rightContent (rightBox1, rightBox2)>
+<!ELEMENT rightBox1 (title, button+)>
+<!ELEMENT button (%ni;)>
+<!ELEMENT rightBox2 (form)>
+<!ELEMENT action (#PCDATA)>
+
+<!ELEMENT footer (nav, description, copyright)>
+<!ELEMENT nav (li+)>
+<!ELEMENT li (#PCDATA)>
+<!ELEMENT copyright (#PCDATA)>

@@ -1,0 +1,6 @@
+<!ELEMENT totalComCount (#PCDATA)>
+<!ELEMENT ynComCount (#PCDATA)>
+<!ELEMENT fbComCount (#PCDATA)>
+<!ELEMENT twComCount (#PCDATA)>
+<!ELEMENT authorID (#PCDATA)>
+<!ELEMENT owned (#PCDATA)>
